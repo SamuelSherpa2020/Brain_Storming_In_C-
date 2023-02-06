@@ -1,9 +1,10 @@
-﻿namespace TriangleAlpha;
-class EntryPoint
+using System;
+class AlphabetTriangle
 {
-    static void Main(string[] args)
+
+    public void PrintAlphabetTriangle()
     {
-        string[] words = { "A", "B", "C", "D", "E","F"};
+        string[] words = { "A", "B", "C", "D", "E" };
 
         int l = words.Length;
 
@@ -27,7 +28,6 @@ class EntryPoint
             Console.WriteLine();
             l--;
             d = 'y';
-
         }
 
     }
