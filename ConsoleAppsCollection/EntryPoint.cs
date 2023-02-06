@@ -3,12 +3,15 @@ class EntryPoint
 {
     static void Main(string[] args)
     {
-        Fabonaci faboObj = new Fabonaci();
-        faboObj.PrintFabonaciNumbers();
+        // Fabonaci faboObj = new Fabonaci();
+        // faboObj.PrintFabonaciNumbers();
 
-        Console.WriteLine();
+        // Console.WriteLine();
 
-        AlphabetTriangle alphaObj = new();
-        alphaObj.PrintAlphabetTriangle();
+        // AlphabetTriangle alphaObj = new();
+        // alphaObj.PrintAlphabetTriangle();
+
+        NumberTriangle NumObj = new();
+        NumObj.PrintNumberTriangle();
     }
 }
